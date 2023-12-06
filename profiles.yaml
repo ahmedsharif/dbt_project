@@ -1,0 +1,33 @@
+# # example profiles.yml file
+# jaffle_shop:
+#   target: dev
+#   outputs:
+#     dev:
+#       type: postgres
+#       host: localhost
+#       user: alice
+#       password: "12345"
+#       port: 5432
+#       dbname: jaffle_shop
+#       schema: dbt_alice
+#       threads: 4
+
+
+# example profiles.yml file
+config-version: 2
+
+profile: 'jaffle_shop'
+
+
+jaffle_shop:
+  target: dev
+  outputs:
+    dev:
+      type: mysql
+      server: 127.0.0.1
+      port: 3306
+      schema: ahmedsharif_test
+      username: root
+      password: 
+      ssl_disabled: True
+      #query_tag: dbt_special

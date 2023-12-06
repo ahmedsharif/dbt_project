@@ -1,0 +1,6 @@
+# packages:
+#   - package: fishtown-analytics/dbt_utils
+#     version: 0.7.0
+#   # - package: brooklyn-data/dbt_artifacts
+#   #   version: 2.6.2
+#   # - package: leogodin217/dbt-fake 
